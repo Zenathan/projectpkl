@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
+@import 'node_modules/@tabler/icons/iconfont/tabler-icons.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+.data{
+    background: url(https://www.pixelstalk.net/wp-content/uploads/images6/HD-Wallpaper-Black-Aesthetic.jpg);
+    height:100vh;
+    margin-left: 228px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+} 
+
+
+nav{
+    background: linear-gradient(225deg,rgb(21, 33, 39),rgb(85, 139, 255));
+    line-height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+label{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+label img{
+    width: 170px;
+    padding-top: 20px;
+    margin-left: -18px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li {
+    line-height: 70px;
+    margin: 0 10px;
+}
+
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 6px 15px;
+    font-weight: 600;
+    background-color:rgb(155, 181, 255);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover{
+    background-color: rgba(34, 61, 136, 0.671);
+    color: white;
+
+    
+
+}
+
+.kiri {
+    position: fixed;
+    background:  rgb(51, 77, 85);
+    width: 230px;
+    height: 100%;
+    margin-top: 98px;
+
+}
+
+.kiri center img {
+    height: 120px;
+    width: 120px;
+    border-radius:50%;
+    margin-top:30px;
+    border:4px solid rgb(255, 255, 255);
+    background: rgb(102, 163, 160);
+
+}
+
+.kiri center h2{
+    color: white;
+}
+
+.kiri a{
+    display: block;
+    line-height: 40px;
+    color: white;
+    transition: 0.2s;
+}
+
+.kiri a:hover{
+    background: rgb(87, 122, 218);
+    padding-left: 20px;
+}
+
+.kiri span{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+.kiri i{
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+nav .menu-bar{
+    float: right;
+    margin-top: 0;
+    display: none;
+    margin-right: 20px;
+}
+
+#menu {
+    display: none;
+}
+
+.kiri .logout {
+    display: none;
+}
+
+@media  (max-width:850px){
+
+
+    .kiri a span{
+
+        display: none;
+
+    }
+
+    .kiri center{
+        display: none;
+    }
+
+    .kiri {
+        width: 100px;
+    }
+
+    .kiri a i {
+        display: block;
+        line-height: 70px;
+        text-align: center;
+        margin-left: 0;
+        font-size: 35px;
+    }
+
+    .data {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:650px) {
+
+    .data {
+        display: none;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    nav{
+        background:rgb(242, 96, 255); 
+    }
+
+
+    .kiri{
+        width: 100%;
+        text-align: center;
+        background: rgb(155, 181, 255);
+        transition: all 0.2s;
+       left: 100%;
+    }
+    
+    .kiri a:hover{
+        background: rgb(87, 122, 218);
+        padding-left: 0;
+    }
+
+    .kiri a i {
+        display: none;
+    }
+
+    .kiri a span{
+        display: block;
+    }
+
+    .kiri .logout{
+        display: block;
+    }
+    nav .menu-bar{
+        display: block;
+    }
+    .logout {
+        margin-top: 500px;
+    }
+}
+
+#menu:checked ~ .kiri {
+left: 0%;
+
+}
+
+.data .isi {
+    padding-top: 120px;
+    margin-left: 40px;
+    color: white;
+}
+
+
+.data .isi table{ 
+    width : 94%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    padding:20px 0 2px ; 
+}
+
+
+
+.data .isi table .tr1{
+    background: rgb(255, 255, 255);
+    color : black;
+   
+}
+
+.data .isi table tr:nth-child(even) {
+    background-color: rgb(33, 44, 83);
+   
+}
+.data .isi table tr {
+    background-color:rgb(155, 181, 255);
+     
+}
+
+.data .isi table td {
+    padding:7px 2px 7px;
+}
+
+.data .isi a {
+    color : white;
+}
+
+.data .isi .gambar{
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+    box-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.form-group button{ 
+    color: grey;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid ;
+    padding: 5px 10px 5px;
+    margin: 0px 0px 0px;
+    transition: background .2s ease-in-out;
+
+}
+
+
+.form-group button:hover {
+    color: black;
+    background-color: white;
+    transition: background .2s ease-in-out;
+
+}
+
+.form-group input{
+    display:block;
+    width:460px;
+    margin:7px 17px 0px;
+    padding:10px;
+    background:rgba(155, 182, 255, 0);
+    color:#fff;
+    border:0;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .form-group input:focus,
+  .form-group input:active{
+    outline:none;
+  }
+  
+  .duh  {
+    margin: -10px 0px;
+  }
+
+  textarea {
+    width: 460px;
+  height: 70px;
+  margin: 0px 17px ;
+  border: 0px;
+  border-radius: 5px;
+  background:rgba(155, 182, 255, 0.699);
+  font-size: 16px;
+  resize: none; 
+  }
+
+  select {
+    width: 460px;
+    height: 50px;
+    margin: 0px 17px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    background:rgba(155, 182, 255, 0.699);
+    font-size: 16px;
+    resize: none; 
+
+  }
+
+  .form-group input[type=file]{
+    width: 350px;
+    max-width: 100%;
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #555;
+    margin: 0px 80px 0px;
+
+  }
+  
+  .form-group input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: rgb(242, 96, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: rgb(124, 61, 129);
+  }
+
+  .batong button{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 5px 10px 5px;
+    margin: 0px 0px 0px;
+    transition: background .2s ease-in-out; }
+
+    .batong button:hover {
+        color: black;
+        background-color: white;
+        transition: background .2s ease-in-out;
+    
+    }
+
+    .pagination{
+        background: rgb(255, 255, 255);
+        width: 9%;
+        display: inline;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .page-item {
+        padding: 0px 10px 0px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .pagination .page-item a{
+        color: black;
+    }
