@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 
+<!-- $admin = query("select * from admin"); 
+
+        session_start();
+        if (!isset($_SESSION['username'])) {
+            header("location: index.php");
+        }else {
+            $username = $_SESSION['username'];  
+        } -->
     <?php 
 
      date_default_timezone_set('Asia/Jakarta'); 
@@ -58,15 +66,17 @@
     <div class="data">
         <div class="isi">
         <div class="duh">
+
     <table class="batong"> 
-             <tbody>
-                  <tr>
-                      <td> 
-                     <a href="?m=karyawan&s=keterangan"><button class="btn btn-warning">Jika Tidak Hadir / Absen</button></a>
-                  </td>
-                  </tr>
-        </tbody>
+      <tr>
+          <td> 
+          <a href="?m=karyawan&s=keterangan"><button>Jika Tidak Hadir / Absen</button></a>
+          </td>
+      </tr>
       </table>
+
+
+
       </div>  
         <form action="dt_absen_sv.php" method="post">
                                 <div class="form-group">
@@ -108,7 +118,7 @@
                                     <table class="batong2"> 
                                     <tr>
                                         <td> 
-                                        <button type="submit" name="simpan" class="btn btn-primary">Present</button>
+                                        <button type="submit" name="simpan">Present</button>
                                     </td>
                                     </tr>
 

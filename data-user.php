@@ -78,7 +78,7 @@
                 <td><?= $i ?> </td>
                 <td><?= $row['username']?></td>
                 <td><?= $row['showpassword']?></td>
-                <td><a href="edit-produk.php">Edit</a>&nbsp|&nbsp<a href="#">Hapus</a></td>
+                <td><a href="#">Edit</a>&nbsp|&nbsp<a href="#">Hapus</a></td>
               </tr>
               <?php $i++ ?>
               <?php endforeach ?>

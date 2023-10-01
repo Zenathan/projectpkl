@@ -106,7 +106,7 @@
                 <td><?= $row['id_karyawan']?></td>
                 <td><?= $row['nama']?></td>
                 <td><?= $row['waktu']?></td>
-                <td><a href="edit.php">Edit</a>&nbsp|&nbsp<a href="#">Hapus</a></td>
+                <td><a href="#">Edit</a>&nbsp|&nbsp<a href="#">Hapus</a></td>
               </tr>
               <?php $i++ ?>
               <?php endforeach ?>

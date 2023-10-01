@@ -66,8 +66,8 @@
   <div class="data">
         <div class="isi">
               <div class="duh">
-                                <form action="karyawan/modul/keterangan_sv.php" method="post" enctype="multipart/form-data">
-                                <div class="form-group2">
+                <form action="karyawan/modul/keterangan_sv.php" method="post" enctype="multipart/form-data">
+                  <div class="form-group2">
                                 <table>
                                         
                                         <tbody>
@@ -117,7 +117,7 @@
 
                                             <tr>
                                                 <td><button type="submit" name="simpan" >Beri Keterangan</button></td>
-                                                <td><input type="reset" name="" value="Batal" class="btn btn-danger"></td>
+                                                <td><input type="reset" name="" value="Batal" class="batong2"></td>
                                             </tr>
                                             
                                       </tbody>

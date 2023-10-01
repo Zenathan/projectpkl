@@ -116,7 +116,9 @@
                 <label for="nohp">No Handphone</label>
                 <input phone="" type="tel" tabindex="3" required name="ntelp"/>
                 <label for="foto">Foto</label>
-                <input type="text" name="foto"/>
+                 <input type="file" required="" name="foto">
+                                    
+
                 <div class="boxbut">
                 <button type="submit" name="submit">Simpan</button>
                 

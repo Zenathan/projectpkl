@@ -33,24 +33,5 @@
         
       </div>
     </div>
-    <!-- copyright -->
-    <div class="colorlibcopy-agile">
-   
-    </div>
-    <!-- //copyright -->
-    <ul class="colorlib-bubbles">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div>
-  <!-- //main -->
 </body>
 </html>
