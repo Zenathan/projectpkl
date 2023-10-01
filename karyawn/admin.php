@@ -2,14 +2,6 @@
 <html lang="en">
 <head>
 
-<!-- $admin = query("select * from admin"); 
-
-        session_start();
-        if (!isset($_SESSION['username'])) {
-            header("location: index.php");
-        }else {
-            $username = $_SESSION['username'];  
-        } -->
     <?php 
 
      date_default_timezone_set('Asia/Jakarta'); 
@@ -22,7 +14,7 @@
 
 
     <!-- Title Page-->
-    <title>Absensi Karyawan</title>
+    <title>Presensi Karyawan</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="karyawan.css">
@@ -116,7 +108,7 @@
                                     <table class="batong2"> 
                                     <tr>
                                         <td> 
-                                        <button type="submit" name="simpan" class="btn btn-primary">Absen</button>
+                                        <button type="submit" name="simpan" class="btn btn-primary">Present</button>
                                     </td>
                                     </tr>
 
